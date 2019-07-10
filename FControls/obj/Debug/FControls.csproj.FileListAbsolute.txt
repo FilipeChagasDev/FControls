@@ -1,0 +1,5 @@
+C:\Users\DEV\Documents\Visual Studio 2015\Projects\TestFControls\FControls\bin\Debug\FControls.dll
+C:\Users\DEV\Documents\Visual Studio 2015\Projects\TestFControls\FControls\bin\Debug\FControls.pdb
+C:\Users\DEV\Documents\Visual Studio 2015\Projects\TestFControls\FControls\obj\Debug\FControls.dll
+C:\Users\DEV\Documents\Visual Studio 2015\Projects\TestFControls\FControls\obj\Debug\FControls.pdb
+C:\Users\DEV\Documents\Visual Studio 2015\Projects\TestFControls\FControls\obj\Debug\FControls.csprojResolveAssemblyReference.cache

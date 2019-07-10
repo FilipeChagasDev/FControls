@@ -1,0 +1,14 @@
+c:\users\dev\documents\visual studio 2015\Projects\TestFControls\TestFControls\bin\Debug\TestFControls.exe.config
+C:\Users\DEV\Documents\Visual Studio 2015\Projects\TestFControls\TestFControls\bin\Debug\TestFControls.exe
+C:\Users\DEV\Documents\Visual Studio 2015\Projects\TestFControls\TestFControls\bin\Debug\TestFControls.pdb
+C:\Users\DEV\Documents\Visual Studio 2015\Projects\TestFControls\TestFControls\obj\Debug\TestFControls.csprojResolveAssemblyReference.cache
+C:\Users\DEV\Documents\Visual Studio 2015\Projects\TestFControls\TestFControls\obj\Debug\TestFControls.Properties.Resources.resources
+C:\Users\DEV\Documents\Visual Studio 2015\Projects\TestFControls\TestFControls\obj\Debug\TestFControls.csproj.GenerateResource.Cache
+C:\Users\DEV\Documents\Visual Studio 2015\Projects\TestFControls\TestFControls\obj\Debug\TestFControls.exe
+C:\Users\DEV\Documents\Visual Studio 2015\Projects\TestFControls\TestFControls\obj\Debug\TestFControls.pdb
+C:\Users\DEV\Documents\Visual Studio 2015\Projects\TestFControls\TestFControls\bin\Debug\FControls.dll
+C:\Users\DEV\Documents\Visual Studio 2015\Projects\TestFControls\TestFControls\bin\Debug\FControls.pdb
+C:\Users\DEV\Documents\Visual Studio 2015\Projects\TestFControls\TestFControls\obj\Debug\TestFControls.Form1.resources
+C:\Users\DEV\Documents\GitHub\FControls\TestFControls\bin\Debug\TestFControls.exe.config
+C:\Users\DEV\Documents\GitHub\FControls\TestFControls\obj\Debug\TestFControls.exe
+C:\Users\DEV\Documents\GitHub\FControls\TestFControls\obj\Debug\TestFControls.pdb
