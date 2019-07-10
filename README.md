@@ -5,6 +5,8 @@ This is a .NET library containing some Windows Forms Controls with custom design
 This is a simple button control. It has rounded bounds and the background can be painted with a gradient or a single color.
 Beyond the Control class properties, it has the following properties:
 
+!(fbutton)[https://github.com/FilipeChagasDev/FControls/blob/master/GitHubImages/fbutton.gif]
+
 | Property name     | Description   |
 |:-----------------:|:-------------:|
 | bool GradientFill | Set true if you want to paint the background with a gradient. If you set it as false, the background will be painted with a single color.|
