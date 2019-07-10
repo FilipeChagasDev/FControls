@@ -10,6 +10,13 @@ namespace FControls
 {
     class Design
     {
+        public static int ByteLimit ( int n )
+        {
+            if (n >= 0 && n <= 255) return n;
+            else if (n > 255) return 255;
+            else return 0;
+        }
+
         public static GraphicsPath RoundedRectanglePath(Rectangle bounds, int radius)
         {
             GraphicsPath path = new GraphicsPath();
@@ -24,7 +31,7 @@ namespace FControls
             path.AddArc(bounds.Width - radius - 1, 0, radius, radius, -90, 90);
 
             // Right Line
-            path.AddLine(bounds.Width - 1, radius, bounds.Width - 1, bounds.Height - radius);
+            path.AddLine(bounds.Width - 1, radius/2, bounds.Width - 1, bounds.Height - radius/2);
 
             // Bottom Right Arc
             path.AddArc(bounds.Width - radius - 1, bounds.Height - radius - 1, radius, radius, 0, 90);
@@ -36,7 +43,7 @@ namespace FControls
             path.AddArc(0, bounds.Height - radius - 1, radius, radius, 90, 90);
 
             // Left Line
-            path.AddLine(0, radius/2, 0, bounds.Height - radius);
+            path.AddLine(0, radius/2, 0, bounds.Height - radius/2);
 
             return path;
         }

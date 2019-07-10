@@ -96,13 +96,13 @@ namespace FControls
             //set colors
             if(this.MouseEnterMutation == MouseEnterMutationEnum.ChangeLightness)
             {
-                top = Color.FromArgb(255, this.TopColor.R + this.MouseEnterLightness,
-                                          this.TopColor.G + this.MouseEnterLightness,
-                                          this.TopColor.B + this.MouseEnterLightness );
+                top = Color.FromArgb(255, Design.ByteLimit(this.TopColor.R + this.MouseEnterLightness),
+                                          Design.ByteLimit(this.TopColor.G + this.MouseEnterLightness),
+                                          Design.ByteLimit(this.TopColor.B + this.MouseEnterLightness) );
 
-                bottom = Color.FromArgb(255, this.BottomColor.R + this.MouseEnterLightness,
-                                             this.BottomColor.G + this.MouseEnterLightness,
-                                             this.BottomColor.B + this.MouseEnterLightness );
+                bottom = Color.FromArgb(255, Design.ByteLimit(this.BottomColor.R + this.MouseEnterLightness),
+                                             Design.ByteLimit(this.BottomColor.G + this.MouseEnterLightness),
+                                             Design.ByteLimit(this.BottomColor.B + this.MouseEnterLightness) );
             }
             else
             {
@@ -117,7 +117,7 @@ namespace FControls
             }
             else
             {
-                this.MouseEnterFillBrush = new SolidBrush(this.MouseEnterTopColor);
+                this.MouseEnterFillBrush = new SolidBrush(top);
             }
         }
 

@@ -46,9 +46,6 @@
     <Compile Include="FButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="FButton.Designer.cs">
-      <DependentUpon>FButton.cs</DependentUpon>
-    </Compile>
     <Compile Include="FLabel.cs">
       <SubType>Component</SubType>
     </Compile>
